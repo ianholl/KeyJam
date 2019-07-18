@@ -37,6 +37,12 @@ span {
   max-width: fit-content;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 10px auto;
+  }
+}
+
 .instruments {
   display: flex;
   justify-content: space-between;
