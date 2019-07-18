@@ -76,6 +76,7 @@ span {
 }
 
 .guitars {
+  transition: 0.3s;
   transition: all 3.0s;
 }
 
