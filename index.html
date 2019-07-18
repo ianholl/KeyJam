@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <title>KeyJam &#9833;&#9835;&#9836;</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1><strong>KEYJAM</strong></h1>
+    <h2>USE YOUR KEYBOARD TO JAM!!!</h2>
+
+    <div class="instruments">
+
+      <div class='instrumentContainer instrumentContainerD'>
+        <h3>DRUMS</h3>
+
+        <div class='keysContainer'>
+          <div data-key='81' class='key drums'>
+            <kbd>Q</kbd>
+            <span>kick</span>
+          </div>
+          <div data-key='87' class='key drums'>
+            <kbd>W</kbd>
+            <span>snare</span>
+          </div>
+          <div data-key='65' class='key drums'>
+            <kbd>A</kbd>
+            <span>boom</span>
+          </div>
+          <div data-key='83' class='key drums'>
+            <kbd>S</kbd>
+            <span>hat-c</span>
+          </div>
+          <div data-key='90' class='key drums'>
+            <kbd>Z</kbd>
+            <span>tom</span>
+          </div>
+          <div data-key='88' class='key drums'>
+            <kbd>X</kbd>
+            <span>hat-o</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class='instrumentContainer instrumentContainerG'>
+        <h3>GUITARS</h3>
+
+        <div class='keysContainer guitars'>
+          <div data-key='84' class='key guitars'>
+            <kbd>T</kbd>
+            <span>rock</span>
+          </div>
+          <div data-key='89' class='key guitars'>
+            <kbd>Y</kbd>
+            <span>blues</span>
+          </div>
+          <div data-key='71' class='key guitars'>
+            <kbd>G</kbd>
+            <span>distrt</span>
+          </div>
+          <div data-key='72' class='key guitars'>
+            <kbd>H</kbd>
+            <span>furry</span>
+          </div>
+          <div data-key='66' class='key guitars'>
+            <kbd>B</kbd>
+            <span>riff</span>
+          </div>
+          <div data-key='78' class='key guitars'>
+            <kbd>N</kbd>
+            <span>slide</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <audio data-key="81" src="sounds/drums/kick.wav"></audio>
+  <audio data-key="87" src="sounds/drums/snare.wav"></audio>
+  <audio data-key="65" src="sounds/drums/boom.wav"></audio>
+  <audio data-key="83" src="sounds/drums/hihat.wav"></audio>
+  <audio data-key="90" src="sounds/drums/tom.wav"></audio>
+  <audio data-key="88" src="sounds/drums/openhat.wav"></audio>
+
+  <audio data-key="84" src="sounds/guitar/rock.wav"></audio>
+  <audio data-key="89" src="sounds/guitar/blues.wav"></audio>
+  <audio data-key="71" src="sounds/guitar/distort.wav"></audio>
+  <audio data-key="72" src="sounds/guitar/furry.wav"></audio>
+  <audio data-key="66" src="sounds/guitar/riff.wav"></audio>
+  <audio data-key="78" src="sounds/guitar/slide.wav"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
