@@ -23,6 +23,7 @@ kbd {
 span {
   color: orange;
   font-size: 15px;
+  white-space: nowrap;
 }
 
 .container {
